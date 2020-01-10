@@ -52,8 +52,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('register') }}">REGISTRATE</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/faqs">PREGUNTAS FRECUENTES</a>
+                <li class="nav-item ">
+                  <a class="nav-link enlace_desactivado" href="/faqs">PREGUNTAS FRECUENTES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/aboutUs">NOSOTROS</a>
@@ -70,7 +70,7 @@
 
                     <div class="container">
                         <div class="row"><div class="col">
-                            <h3 class="text-center pf">¿Los artículos gratuitos son de uso libre?</h3>
+                            <h3 class="text-center pf">¿Los artículos son gratuitos y de uso libre?</h3>
                             </div></div>
                         <div class="row"><div class="col">
                             <p class="text-center pf">Si, son de uso libre, solo ténes que hacer referencia a su desarrollador en tu futura aplicación.</p>
@@ -104,7 +104,7 @@
                         <h3 class="text-center pf">¿Las plantillas utilizan algun marco de trabajo?</h3>
                         <div class="row"><div class="col">
                         </div></div>
-                        <p class="text-center pf">Depende de su creador, la mayoría utiliza Bootstrap 4.</p>
+                        <p class="text-center pf">Depende de su creador, la mayoría de plantillas responsive simples utilizan Bootstrap 4.</p>
                     </div>        
                 </div>
 

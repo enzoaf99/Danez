@@ -59,7 +59,7 @@
                   <a class="nav-link" href="/faqs">PREGUNTAS FRECUENTES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/aboutUs">NOSOTROS</a>
+                  <a class="nav-link enlace_desactivado" href="/aboutUs">NOSOTROS</a>
                 </li>
                 @auth
                    <li class="nav-item">
@@ -77,9 +77,9 @@
               
                 <div class="container text-center text-white mx-auto my-auto p-5">
                 <h3 class="font-weight-bold" style="font-size: 50px">DANEZ™: Por Enzo Fernandez y Daira Mazza</h3>
-                <p class="font-italic" style="font-size: 30px">Somos un pequeño equipo de programadores, que iniciamos nuestros primeros pasos en el mundo de la programación web con este proyecto.
-                  Nuestra idea es que este sirva a la comunidad de desarrolladores de América latina con un foro donde se plantees dudas y se lleven a cabo debates sobre el rubro.
-                  A su vez, estamos en el desarrollo de una página con artículos descargables que sean de utilidad para cualquier proyecto.
+                <p class="font-italic" style="font-size: 30px">Somos un pequeño equipo de desarrolladores, que iniciamos nuestros primeros pasos en el mundo de la programación web con este proyecto.
+                  Ahora estamos en el desarrollo de una página con artículos descargables que sean de utilidad para cualquier proyecto.
+                  Nuestra idea es que este en un futuro sirva también a la comunidad de desarrolladores de América latina con un foro donde se planteen dudas y se lleven a cabo debates sobre el rubro.
                 </p>
               </div>
 

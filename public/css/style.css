@@ -1,3 +1,9 @@
+/*ENLACE DESACTIVADO*/
+.enlace_desactivado {
+pointer-events: none;
+cursor: default;
+text-decoration: overline;
+}
 /*TITULO CENTRAL*/
 #banner{
   background-image: linear-gradient(to right,#200406,#1c1a24);
