@@ -38,7 +38,7 @@
                @if (Route::has('login'))
                 <li class="nav-item">
                     @auth
-                        <a class="nav-link" href="{{ url('/home') }}">CATÁLOGO</a>
+                        <a class="nav-link" href="{{ url('/products') }}">ARTÍCULOS</a>
                     @else
                         <a href="{{ route('login') }}"></a>
 
@@ -93,7 +93,7 @@
         <div class="container align-content-center p-5">
           <div class="row">
               <div class="col-sm text-center text-light">
-                  <h4 class="info">Encontrá la platilla que mejor se adapte a tu idea</h3>
+                  <h4 class="info">Encontrá la plantilla que mejor se adapte a tu idea</h3>
                   <img class="img-fluid p-1" width="100" height="" src="/imagenes/tazacode.png" alt="">
               </div>
               <div class="col-sm text-center text-light">

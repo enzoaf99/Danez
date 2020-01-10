@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DANEZ™ / NOSOTROS</title>
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:800i|Ubuntu&display=swap" rel="stylesheet"> 
+        <title>DANEZ™</title>
+        <link href="https://fonts.googleapis.com/css?family=Muli|Oswald|Raleway:800i|Ubuntu&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -18,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     </head>
-    <body>
+<body>
         <div class="flex-center position-ref full-height">
 
 
@@ -59,7 +59,7 @@
                   <a class="nav-link" href="/faqs">PREGUNTAS FRECUENTES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link enlace_desactivado" href="/aboutUs">NOSOTROS</a>
+                  <a class="nav-link" href="/aboutUs">NOSOTROS</a>
                 </li>
                 @auth
                    <li class="nav-item">
@@ -71,25 +71,10 @@
           </nav>
 
               </section>
+    <body>
+<div class="container">
+    @yield('content')
+</div>
 
-<!--ABOUT US-->
-
-              
-                <div class="container text-center text-white mx-auto my-auto p-5">
-                <h3 class="font-weight-bold" style="font-size: 50px">DANEZ™: Por Enzo Fernandez y Daira Mazza</h3>
-                <p class="font-italic" style="font-size: 30px">Somos un pequeño equipo de desarrolladores, que iniciamos nuestros primeros pasos en el mundo de la programación web con este proyecto.
-                  Ahora estamos en el desarrollo de una página con artículos descargables que sean de utilidad para cualquier proyecto.
-                  Nuestra idea es que este en un futuro sirva también a la comunidad de desarrolladores de América latina con un foro donde se planteen dudas y se lleven a cabo debates sobre el rubro.
-                </p>
-              </div>
-
-
-<!--FOOTER DEL COPYRIGHT-->
-        <div class="footer-copyright text-center py-3 fixed-bottom pie">
-                © 2020 Copyright: Daira Mazza &amp; Enzo Fernandez
-        </div> 
-
-
-
-    </body>
+</body>
 </html>

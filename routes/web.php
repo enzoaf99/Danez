@@ -14,6 +14,8 @@ Route::get('aboutUs', function () {
 
 Auth::routes();
 
+Route::resource('products','ProductController')->middleware('auth');;
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
