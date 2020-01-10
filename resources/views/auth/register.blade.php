@@ -16,7 +16,6 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     </head>
     <body>
 
@@ -75,7 +74,7 @@
                         <div class="">{{ __('REGISTRO') }}</div>
 
                             <div class="card-body">
-                                <form method="POST" action="{{ route('register') }}">
+                                <form name="formulario" method="POST" action="{{ route('register') }}">
                                     @csrf
 
             <!--NOMBRE-->
@@ -169,5 +168,6 @@
                 </div>
             </div>
 
-    </body>
+        </body>
+        
 </html>
