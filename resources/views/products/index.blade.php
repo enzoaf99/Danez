@@ -1,7 +1,9 @@
 @extends('products.layout')
 
 @section('content')
-    <div class="row">
+    
+<div class="container p-5">
+<div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h2 class="text-light">ARTÍCULOS</h2>
@@ -30,13 +32,14 @@
         <br>
         <br>
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">
-                    <a class="btn btn-outline-light m-2" href="{{ route('products.show',$product->id) }}">Show</a>
-                    <a class="btn btn-outline-light m-2" href="{{ route('products.edit',$product->id) }}">Edit</a>
+                    <a class="btn btn-outline-light m-2" href="{{ route('products.show',$product->id) }}">Mostrar</a>
+                    <a class="btn btn-outline-light m-2" href="{{ route('products.edit',$product->id) }}">Editar</a>
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-outline-light m-2">Delete</button>
+                    <button type="submit" class="btn btn-outline-light m-2">Borrar artículo</button>
                 </form>
         @endforeach
     </table>
     {!! $products->links() !!}
 @endsection
+</div>

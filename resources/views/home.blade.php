@@ -38,7 +38,7 @@
                @if (Route::has('login'))
                 <li class="nav-item">
                     @auth
-                        <a class="nav-link" href="{{ url('/articulos') }}">ARTÍCULOS</a>
+                        <a class="nav-link" href="{{ url('/products') }}">ARTÍCULOS</a>
                     @else
                         <a href="{{ route('login') }}"></a>
 
@@ -74,8 +74,7 @@
 
 <!-- TITULO CENTRAL -->
 
-              <section id="banner">
-                <div class="container">
+                <div class="container text-light">
                   <div class="row">
                     <div class="col-md-12">
                       <p class="titulo-danez">DANEZ™</p>
@@ -83,7 +82,6 @@
                     </div>
                   </div>
                 </div>
-              </section>
 
             </div>
         </div>
@@ -106,7 +104,7 @@
               </div>
             </div>
           </div>        
-
+<br>
 <!--FOOTER DEL COPYRIGHT-->
         <div class="footer-copyright text-center py-3 fixed-bottom pie">
                 © 2020 Copyright: Daira Mazza &amp; Enzo Fernandez

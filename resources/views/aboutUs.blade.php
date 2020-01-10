@@ -38,7 +38,7 @@
                @if (Route::has('login'))
                 <li class="nav-item">
                     @auth
-                        <a class="nav-link" href="{{ url('/articulos') }}">ARTÍCULOS</a>
+                        <a class="nav-link" href="{{ url('/products') }}">ARTÍCULOS</a>
                     @else
                         <a href="{{ route('login') }}"></a>
 
