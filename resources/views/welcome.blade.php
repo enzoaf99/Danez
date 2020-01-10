@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DANEZ™</title>
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:800i|Ubuntu&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Muli|Oswald|Raleway:800i|Ubuntu&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -87,6 +87,25 @@
 
             </div>
         </div>
+
+<!--INFORMACIÓN-->
+
+        <div class="container align-content-center p-5">
+          <div class="row">
+              <div class="col-sm text-center text-light">
+                  <h4 class="info">Encontrá la platilla que mejor se adapte a tu idea</h3>
+                  <img class="img-fluid p-1" width="100" height="" src="/imagenes/tazacode.png" alt="">
+              </div>
+              <div class="col-sm text-center text-light">
+                  <h4 class="info">Aumenta tu alcance haciendo responsive tu página web</h3>
+                  <img class="img-fluid p-1" width="190" height="" src="/imagenes/phone.png" alt="">
+              </div>
+              <div class="col-sm text-center text-light">
+                  <h4 class="info">Próximamente, foro para preguntas y debates</h3>
+                  <img class="img-fluid p-1" width="100" height="" src="/imagenes/foro.png" alt="">
+              </div>
+            </div>
+          </div>        
 
 <!--FOOTER DEL COPYRIGHT-->
         <div class="footer-copyright text-center py-3 fixed-bottom pie">

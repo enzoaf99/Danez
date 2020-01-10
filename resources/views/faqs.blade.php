@@ -65,7 +65,7 @@
               </section>
 
 <!-- PREGUNTAS FRECUENTES -->
-
+              <div class="container p-5">
                 <h4 class="text-center titulopf">PREGUNTAS FRECUENTES</h4>
 
                     <div class="container">
@@ -106,6 +106,7 @@
                         </div></div>
                         <p class="text-center pf">Depende de su creador, la mayoría de plantillas responsive simples utilizan Bootstrap 4.</p>
                     </div>        
+                </div>
                 </div>
 
 <!--FOOTER DEL COPYRIGHT-->

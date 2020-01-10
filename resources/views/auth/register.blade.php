@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DANEZ™ / PREGUNTAS FRECUENTES</title>
+        <title>DANEZ™ / REGISTRATE</title>
         <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:800i|Ubuntu&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -168,6 +168,12 @@
                 </div>
             </div>
 
-        </body>
-        
+<!--FOOTER DEL COPYRIGHT-->
+        <div class="footer-copyright text-center py-3 fixed-bottom pie">
+                © 2020 Copyright: Daira Mazza &amp; Enzo Fernandez
+        </div> 
+
+
+
+    </body>
 </html>
