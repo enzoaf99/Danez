@@ -1,5 +1,4 @@
-@extends('layouts.app')
-@section('content')
+@extends('layouts.navbar')
 
 <div class="container">
     <div class="row justify-content-center">
@@ -44,4 +43,6 @@
         </div>
     </div>
 </div>
-@endsection
+
+<br>
+@extends('layouts.footer')

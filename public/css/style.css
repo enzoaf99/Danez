@@ -1,8 +1,11 @@
 /*ENLACE DESACTIVADO*/
-.enlace_desactivado {
+.enlace_desactivado a {
 pointer-events: none;
 cursor: default;
-text-decoration: overline;
+color: white!important;
+}
+#enlace_desactivado a {
+  color: black;
 }
 /*TITULO CENTRAL*/
 #banner{
@@ -52,7 +55,6 @@ body{
 }
 
 .navbar-nav li a{
-  color: #fff!important;
   font-weight: 600;
   float: right;
   text-align: left;
